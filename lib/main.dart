@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'file:///G:/tinder/tinder_swipe/lib/common/flutter_tindercard.dart';
-import 'file:///G:/tinder/tinder_swipe/lib/dashboard/tinder_dashboard.dart';
+import 'package:tinder_swipe/dashboard/tinder_dashboard.dart';
 
 void main() => runApp(MyApp());
 
