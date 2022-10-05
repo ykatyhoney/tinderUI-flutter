@@ -12,24 +12,17 @@
 			"deviceId": "chrome"
         }, 
         {
-            "name": "android",
+            "name": "mobile",
             "request": "launch",
             "type": "dart",
             "program": "lib/main.dart",
             "deviceId": "emulator-5554"
-        },
-        {
-            "name": "ios",
-            "request": "launch",
-            "type": "dart",
-            "program": "lib/main.dart",
-            "deviceId": "iphone"
         }
     ],
     "compounds": [
         {
             "name": "2 devices",
-            "configurations": ["android", "web"]
+            "configurations": ["mobile", "web"]
         }
     ]
 }
